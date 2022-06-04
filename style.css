@@ -1,0 +1,219 @@
+
+		html{
+			height: 100%;
+		}
+		@font-face{
+			src:url(18473.ttf);
+			font-family: my-font;
+		}
+		body{
+			font-family: my-font;
+			color: white;
+			height: 100%;
+		}
+		/*главная*/
+		.school{
+			position: absolute;
+			top:25%;
+			left: 70%
+		}
+		.mastery1{
+			top:70%;
+			position: absolute;
+			left:30%;
+		}
+		.mastery{
+			top:70%;
+			position: absolute;
+			left:30%;
+			display: none;
+		}
+		.main_player{
+			position: absolute;
+			top:50%;
+			left: 50%;
+			height: 200px;
+			transition:  0.8s;
+		}
+		.arena1{
+			position: absolute;
+			top:10%;
+			left: 15%;
+		}
+		.arena {
+			position: absolute;
+			top:10%;
+			left: 15%;
+			display: none;
+		}
+		/*2 локация*/
+		.loc2_teacher {
+			height: 100px;
+			width: 80px;
+			margin-left: 55%; 
+			position: absolute; 
+			margin-top: 10%;
+            background-image: url(Loc2/venti.png);
+            background-size: 100% 100%;
+		}
+		.loc2_talk {
+			position: absolute;
+			width: 300px;
+			margin-left: 56%;
+			display: none;
+			background-image: url(Loc2/talk.png);
+			background-size: 100% 100%;
+			color: black;
+			padding: 56px;
+		}
+
+		.loc2_pravilno{
+			background-color: #037050; width: 100px; position: absolute;
+		}
+
+		.loc2_player {
+			left:26%; top:40%; position: absolute; height: 100px;
+		}
+
+		.loc2_variants {
+			background-color: #037050; width: 100px; position: absolute;
+		}
+		.loc2_variants_block{
+			display: flex; position: absolute; top: 70%;left: 2%; display:none;
+		}
+		.loc2_timeSize {
+			font-size: 30px
+		}
+		.loc2_pole {
+			margin-top: 25%;
+			position: absolute;
+		}
+		
+		.sword {
+			width: 70px; border: white 2px solid; display: none
+		}
+
+		.nojni {
+			width: 70px; border: white 2px solid; display: none
+		}
+		.shield {
+			width: 70px; border: white 2px solid; display: none
+		}
+		.box {
+			background-image: url(loc3/tar.jpg);
+			background-size: 100% 100%;
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			margin-top: 30px;
+			margin-left: 300px;
+		}
+		.box2 {
+			background-image: url(loc3/zhon.jpg);
+			background-size: 100% 100%;
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			margin-top: 300px;
+			margin-left: 300px;
+		}
+		.box3 {
+			background-image: url(loc3/scar.jpg);
+			background-size: 100% 100%;
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			margin-left: 650px;
+			margin-top: 30px;
+		}
+		.box4 {
+			background-image: url(loc3/dot.png);
+			background-size: 100% 100%;
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			margin-left: 650px;
+			margin-top: 300px;
+		}
+		.box5 {
+			background-image: url(loc3/zhon.jpg);
+			background-size: 100% 100%;
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			margin-left: 980px;
+			margin-top: 30px;
+		}
+		.box6 {
+			background-image: url(loc3/scar.jpg);
+			background-size: 100% 100%;
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			margin-left: 980px;
+			margin-top: 300px;
+		}
+		.button {
+			margin-left: 700px;
+			color: white;
+			background-color: #330d03;
+		}
+		.text {
+			background-color: #330d03;
+			color: white;
+			margin-left: auto;
+			margin-right: auto;
+			width: 340px;
+			font-size: 25px;
+		}
+		.sig {
+			height: 600px;
+			top: 10%; 
+			position: absolute;
+			left: 20%;
+		}
+		.lumine {
+			height: 500px;
+			top: 20%;
+			position: absolute;
+			left: 50%;
+			background-image: url(loc4/lumine.png);
+		}
+		.location4 {
+			height: 800px;
+			background-image: url(location1.jpg);
+			background-size: cover;
+		}
+		.img1 {
+			width: 126px;
+			position: absolute;
+			margin-top: 302px;
+			margin-left: 822px;
+		}
+		.scoree {
+			background-color: #11307d;
+		}
+		.img2 {
+			width: 67px;
+			margin-left: 870px;
+			margin-top: 50px;
+			position: absolute;
+		}
+		@font-face {
+			font-family: kek;
+			src: url(etna-free-font.otf);
+		}
+		.img3 {
+			width: 295px;
+			margin-left: 934px;
+			margin-top: 46px;
+			position: absolute;
+		}
+		.img4 {
+			width: 200px;
+			margin-left: 1200px;
+			margin-top: 300px;
+			position: absolute;
+		}
+		
+	

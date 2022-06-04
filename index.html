@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Игра</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-size: cover; background-image: url(gay.jpg);">
+	<div class="main">
+		<div class="sword">
+			<img src="bog1.png" style="width: 50px">
+		</div>
+		<div class="nojni">
+			<img src="bog2.png" style="width: 50px">
+		</div>
+		<div class="shield">
+			<img src="bog3.png" style="width: 50px">
+		</div>	
+		<div class="school">
+			<img src="school.png" alt="" style="height: 200px;">
+		</div>
+		<div  class="mastery1"> 
+			<img src="noina.jpg" alt="" style="height: 200px;">
+		</div>
+		<div  class="mastery"> 
+			<img src="ina.jpg" alt="" style="height: 200px;">
+		</div>
+		<div  class="arena1"> 
+			<img src="noli.jpg" alt="" style="height: 200px;">
+		</div>
+		<div  class="arena"> 
+			<img src="li.jpg" alt="" style="height: 200px;">
+		</div>
+		<img src="signora1.png" alt="" class="main_player">
+	</div>
+	
+	<!--2 локация-->
+	<div class="location2" style="display:none;">
+		<!--таймер-->
+		<h6 class="text-light loc2_timeSize"><span class="loc2_timeText "></span></h6>
+
+		<!--задание на доске-->
+		<div class="mx-auto col-3 ">
+			<img src="Loc2/doska.png" style="position: absolute; width: 300px" >
+			<h4 class="p-2 pl-4 text-white" style="position: absolute; width: 300px">Кто является фамильяром Анемо Архонта?</h4>
+		</div>
+		
+		<!--учитель-->
+		<div class="loc2_teacher"></div> 
+
+		<!--парты школьные-->
+		<div style="position: absolute; margin-top: 17%; margin-left: 25%">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute;">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute; margin-left: 220px">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute; margin-left: 440px">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute; margin-left: 660px">			
+		</div>
+		<div style="position: absolute; margin-top: 25%; margin-left: 25%">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute;">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute;margin-left: 220px">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute;margin-left: 440px">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute;margin-left: 660px">			
+		</div>
+		<!--варианты ответов-->
+		<div class="loc2_variants_block">
+			 <div class="loc2_variants">Вариант 1: Ванесса</div>
+			 <div class="loc2_variants" style="margin-left: 150px;">Вариант 2: Декарибиан</div>
+			 <div class="loc2_variants" style="margin-left: 300px; ">Вариант 3: Венти</div>
+			 <div class="loc2_variants" style="margin-top: 140px; ">Вариант 4: Аждаха</div>
+			 <div class="loc2_variants" style="margin-top: 140px; margin-left: 150px;">Вариант 5: Яэ Мико</div>
+			 <div class="loc2_pravilno" style="margin-top: 140px; margin-left: 300px;">Вариант 6: Двалин</div>
+		</div>
+		<!--игрок на 2-ой локации-->
+		<img src="signora.png" class="loc2_player">
+		<!--бабл с заданием учителя-->
+		<div class="loc2_talk" >
+			Ответь на вопрос, который написан на доске
+		</div>
+	</div>
+	<div class="location3" style="display: none">
+		<h1 class="text">У тебя <span class="score">3</span> попытки, чтоб найти Тарталью</h1>
+		<button class="button">Начать игру</button>
+		<div class="box"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+		<div class="box4"></div>
+		<div class="box5"></div>
+		<div class="box6"></div>
+	</div>
+	<div class="location4" style="display: none;">
+		<div class="col-2 mx-auto text-center text-white score">
+		<h1 style="font-family: kek;">Мои очки <span class="bullet">0</span></h1>
+		</div>
+
+		<h1 class="text-white text1 scoree col-2" style="font-family: kek">Книга</h1>
+		<img src="book.jpg" class="img1">
+		<img src="vod.jpg" class="img3"> 
+		<h1 class="text-white text2 scoree col-2" style="font-family: kek">Фея </h1>
+		<img src="fairy.jpg" class="img2">
+		<h1 class="text-white text3 scoree col-2" style="font-family: kek">Водопад</h1>
+		</div>
+	
+<script src="script.js"></script>
+	
+</body>
+</html>
